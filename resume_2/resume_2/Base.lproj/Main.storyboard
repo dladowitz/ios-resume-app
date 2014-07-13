@@ -129,6 +129,9 @@
                     <navigationItem key="navigationItem" id="fdE-Dl-gWu">
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="d5l-gf-Cfy"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="kvc-uw-NOi" id="6gy-rl-VQQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ojg-Es-j6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
