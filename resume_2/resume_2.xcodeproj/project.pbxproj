@@ -21,6 +21,8 @@
 		6352F740196E650200AA51AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6352F722196E650200AA51AA /* UIKit.framework */; };
 		6352F748196E650200AA51AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6352F746196E650200AA51AA /* InfoPlist.strings */; };
 		6352F74A196E650200AA51AA /* resume_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352F749196E650200AA51AA /* resume_2Tests.m */; };
+		63731F4A1972347D0006E284 /* SocialInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 63731F491972347D0006E284 /* SocialInfo.m */; };
+		63731F4D1972433F0006E284 /* SocailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63731F4C1972433F0006E284 /* SocailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		6352F745196E650200AA51AA /* resume_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "resume_2Tests-Info.plist"; sourceTree = "<group>"; };
 		6352F747196E650200AA51AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6352F749196E650200AA51AA /* resume_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = resume_2Tests.m; sourceTree = "<group>"; };
+		63731F481972347D0006E284 /* SocialInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialInfo.h; sourceTree = "<group>"; };
+		63731F491972347D0006E284 /* SocialInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialInfo.m; sourceTree = "<group>"; };
+		63731F4B1972433F0006E284 /* SocailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocailViewController.h; sourceTree = "<group>"; };
+		63731F4C1972433F0006E284 /* SocailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		6352F724196E650200AA51AA /* resume_2 */ = {
 			isa = PBXGroup;
 			children = (
+				63731F471972344B0006E284 /* Models */,
 				6352F753196E6AE600AA51AA /* View Controllers */,
 				6352F72D196E650200AA51AA /* AppDelegate.h */,
 				6352F72E196E650200AA51AA /* AppDelegate.m */,
@@ -156,8 +163,19 @@
 			children = (
 				6352F733196E650200AA51AA /* ProfileViewController.h */,
 				6352F734196E650200AA51AA /* ProfileViewController.m */,
+				63731F4B1972433F0006E284 /* SocailViewController.h */,
+				63731F4C1972433F0006E284 /* SocailViewController.m */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		63731F471972344B0006E284 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63731F481972347D0006E284 /* SocialInfo.h */,
+				63731F491972347D0006E284 /* SocialInfo.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +277,9 @@
 			files = (
 				6352F735196E650200AA51AA /* ProfileViewController.m in Sources */,
 				6352F72F196E650200AA51AA /* AppDelegate.m in Sources */,
+				63731F4A1972347D0006E284 /* SocialInfo.m in Sources */,
 				6352F72B196E650200AA51AA /* main.m in Sources */,
+				63731F4D1972433F0006E284 /* SocailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +484,7 @@
 				6352F74F196E650200AA51AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6352F750196E650200AA51AA /* Build configuration list for PBXNativeTarget "resume_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +493,7 @@
 				6352F752196E650200AA51AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7CDFB68E-9795-4B70-B515-3C87D6802E39</string>
+	<string>439BF95B-F224-4510-97E3-EC8600615055</string>
 	<key>IDESourceControlProjectName</key>
 	<string>resume_2</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7824296C-E744-4EC6-9150-E36401EFA1B2</key>
-		<string>ssh://github.com/neurosaurus/ios-course.git</string>
+		<key>2EA6BF8E-3A58-44CC-BB01-ED0A3A08CCF4</key>
+		<string>ssh://github.com/dladowitz/ios-resume-app.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>resume_2/resume_2.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7824296C-E744-4EC6-9150-E36401EFA1B2</key>
+		<key>2EA6BF8E-3A58-44CC-BB01-ED0A3A08CCF4</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/neurosaurus/ios-course.git</string>
+	<string>ssh://github.com/dladowitz/ios-resume-app.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7824296C-E744-4EC6-9150-E36401EFA1B2</string>
+	<string>2EA6BF8E-3A58-44CC-BB01-ED0A3A08CCF4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7824296C-E744-4EC6-9150-E36401EFA1B2</string>
+			<string>2EA6BF8E-3A58-44CC-BB01-ED0A3A08CCF4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ios-course</string>
 		</dict>
