@@ -20,7 +20,7 @@
     return info;
 }
 
-+ (NSArray * )allSocailInfo
++ (NSArray * )allSocialInfo
 {
     static NSArray *all;
     if (!all)

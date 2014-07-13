@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63075BE719724D4D006F6A52 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63075BE619724D4D006F6A52 /* WebViewController.m */; };
 		6352F71F196E650200AA51AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6352F71E196E650200AA51AA /* Foundation.framework */; };
 		6352F721196E650200AA51AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6352F720196E650200AA51AA /* CoreGraphics.framework */; };
 		6352F723196E650200AA51AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6352F722196E650200AA51AA /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63075BE519724D4D006F6A52 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		63075BE619724D4D006F6A52 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		6352F71B196E650200AA51AA /* resume_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resume_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6352F71E196E650200AA51AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6352F720196E650200AA51AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -165,6 +168,8 @@
 				6352F734196E650200AA51AA /* ProfileViewController.m */,
 				63731F4B1972433F0006E284 /* SocailViewController.h */,
 				63731F4C1972433F0006E284 /* SocailViewController.m */,
+				63075BE519724D4D006F6A52 /* WebViewController.h */,
+				63075BE619724D4D006F6A52 /* WebViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6352F735196E650200AA51AA /* ProfileViewController.m in Sources */,
+				63075BE719724D4D006F6A52 /* WebViewController.m in Sources */,
 				6352F72F196E650200AA51AA /* AppDelegate.m in Sources */,
 				63731F4A1972347D0006E284 /* SocialInfo.m in Sources */,
 				6352F72B196E650200AA51AA /* main.m in Sources */,

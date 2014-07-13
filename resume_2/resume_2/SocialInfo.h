@@ -14,6 +14,6 @@
 @property(strong, nonatomic) NSString *url;
 @property(strong, nonatomic) NSString *icon;
 
-+ (NSArray *)allSocailInfo;
++ (NSArray *)allSocialInfo;
 
 @end

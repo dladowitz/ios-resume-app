@@ -8,6 +8,7 @@
 
 #import "SocailViewController.h"
 #import "SocialInfo.h"
+#import "WebViewController.h"
 
 @interface SocailViewController ()
 
@@ -31,36 +32,20 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [SocialInfo allSocailInfo].count;
+    return [SocialInfo allSocialInfo].count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"SocialInfoCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    SocialInfo *info = [SocialInfo allSocailInfo][indexPath.row];
+    SocialInfo *info = [SocialInfo allSocialInfo][indexPath.row];
     cell.textLabel.text = info.title;
     cell.imageView.image = info.icon;
     return cell;
     
 }
 
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    UITableViewCell *cell;
-//    
-//    // email
-//    if (indexPath.section == 0) {
-//        cell = [tableView dequeueReusableCellWithIdentifier:@"MailCell" forIndexPath:indexPath];
-//    } else {
-//        cell = [tableView dequeueReusableCellWithIdentifier:@"SocialInfoCell" forIndexPath:indexPath];
-//        SocialInfo *info = self.socialInfo[indexPath.row];
-//        cell.textLabel.text = info.title;
-//        cell.imageView.image = info.icon;
-//    }
-//    
-//    return cell;
-//}
 
 - (void)viewDidLoad
 {
@@ -131,15 +116,24 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([segue.destinationViewController isKindOfClass:[WebViewController class]] &&
+        [sender isKindOfClass:[UITableViewCell class]]) {
+        
+        UITableViewCell *sourceCell = (UITableViewCell *)sender;
+        WebViewController *destination = (WebViewController *)segue.destinationViewController;
+        
+        NSInteger row = [self.tableView indexPathForCell:sourceCell].row;
+        SocialInfo *info = [SocialInfo allSocialInfo][row];
+        destination.title = info.title;
+        destination.url = info.url;
+    }
 }
-*/
+
 
 @end
